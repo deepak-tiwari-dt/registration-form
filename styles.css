@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.formStart {
+  background-color: rgb(34, 34, 231);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.formStart label {
+  color: rgb(0, 0, 0);
+}
+
+.formStart form {
+  background-color: white;
+  width: 20%;
+  padding: 2%;
+  /* height: 400px; */
+}
+
+.formStart form h3{
+  text-align: center;
+  padding: 1%
+}
+
+.formStart form p {
+  text-align: center;
+  padding: 1%;
+  margin-top: 2%;
+}
+
+.formStart form input,textarea {
+  width: 100%;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton button {
+  background-color: rgb(29, 220, 29);
+  width: 100%;
+  border: none;
+  padding: 2%;
+  border-radius: 5px;
+  color: white;
+}
+
+.privacy span {
+  color: blue;
+}
